@@ -428,6 +428,7 @@ button {
 
 .banner {
   position: relative;
+  overflow: hidden;
   min-height: 900px;
   padding: 160px 0 120px;
   margin-bottom: 60px;
@@ -790,6 +791,7 @@ button {
 .portfolio_section {
   padding-top: 120px;
   padding-bottom: 120px;
+  overflow: hidden;
 }
 .portfolio_section .container {
   max-width: 1320px;
