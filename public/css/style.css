@@ -184,24 +184,25 @@ button {
 .btn_text {
   position: relative;
 }
-.btn_text p {
+.btn_text span {
+  display: block;
   transition: all 0.3s ease;
 }
-.btn_text p:nth-child(2) {
+.btn_text span:nth-child(2) {
   color: var(--white);
   position: absolute;
   top: 250%;
 }
-.btn_style.warn-color .btn_text p:nth-child(2) {
+.btn_style.warn-color .btn_text span:nth-child(2) {
   color: var(--black);
 }
 .btn_style.warn-color:hover {
   box-shadow: 0 24px 40px 0 rgba(255, 201, 97, 0.4);
 }
-.btn_style:hover .btn_text p:nth-child(1) {
+.btn_style:hover .btn_text span:nth-child(1) {
   transform: translateY(-250%);
 }
-.btn_style:hover .btn_text p:nth-child(2) {
+.btn_style:hover .btn_text span:nth-child(2) {
   top: 0;
 }
 .btn_style .btn_icon img {
@@ -335,6 +336,21 @@ button {
   z-index: 20;
   background-color: var(--white);
 }
+.menu_title p {
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #d9d9d9;
+  width: fit-content;
+  padding-bottom: 8px;
+  transition: all 0.3s ease;
+}
+.menu_title p:hover {
+  color: var(--primary);
+}
+.menu_title {
+  padding-bottom: 10px;
+}
 .mega_menu {
   box-shadow: 0px 20px 20px 12px rgba(0, 0, 0, 0.075);
 }
@@ -356,6 +372,7 @@ button {
 .mega_menu ul li a {
   font-weight: 500;
   padding: 0;
+  color: var(--light-gray);
 }
 .mega_menu ul li a::before,
 .sub_menu li a::before {
@@ -1487,4 +1504,8 @@ button {
 }
 .contact_social .social a:hover {
   color: var(--primary);
+}
+.about_img,
+.banner_img {
+  animation: upDown 1s infinite alternate;
 }
