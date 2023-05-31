@@ -143,4 +143,4 @@ btnCloseMenu.addEventListener("click", () => {
 // Hidden Loading
 const timer = setTimeout(() => {
   loading.classList.add("hidden");
-}, 3000);
+}, 2000);

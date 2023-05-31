@@ -1,0 +1,6 @@
+{
+  "htmlWhitespaceSensitivity": "ignore",
+  "vueIndentScriptAndStyle": false,
+  "proseWrap": "preserve",
+  "htmlVoidTags": []
+}

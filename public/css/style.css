@@ -523,7 +523,7 @@ button {
   right: 76px;
   max-width: 142px;
   animation: zoomIn 0.75s ease;
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 .shape_deco_1 {
   top: 0;
@@ -551,14 +551,14 @@ button {
   right: -230px;
   max-width: 289px;
   animation: rotateSlideInLeft 0.75s ease;
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 .shape_deco_5 {
   bottom: -12px;
   right: -195px;
   max-width: 842px;
   animation: zoomIn 0.75s ease;
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 /* 
   =====================
