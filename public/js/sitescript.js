@@ -10,6 +10,7 @@ const overlay = document.querySelector(".overlay");
 const menuBar = document.querySelector(".fix_wrapper");
 const btnCloseMenu = document.querySelector(".btn_close_menu");
 const aboutImageSection = document.querySelector(".about_img img");
+const blogImages = document.querySelectorAll(".blog_item .item_img");
 
 let heightAdd = 0;
 const headerHeight = 96;
@@ -53,6 +54,15 @@ links.forEach(function (link) {
   });
   link.addEventListener("mouseout", function () {
     mousePointer.classList.remove("smaller");
+  });
+});
+
+blogImages.forEach(function (link) {
+  link.addEventListener("mouseover", function () {
+    mousePointer.classList.add("view");
+  });
+  link.addEventListener("mouseout", function () {
+    mousePointer.classList.remove("view");
   });
 });
 
