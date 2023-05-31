@@ -11,6 +11,7 @@ const menuBar = document.querySelector(".fix_wrapper");
 const btnCloseMenu = document.querySelector(".btn_close_menu");
 const aboutImageSection = document.querySelector(".about_img img");
 const blogImages = document.querySelectorAll(".blog_item .item_img");
+const loading = document.querySelector(".loading");
 
 let heightAdd = 0;
 const headerHeight = 96;
@@ -139,4 +140,7 @@ btnCloseMenu.addEventListener("click", () => {
   menuBar.classList.remove("active");
 });
 
-// Nguyen Tien Dat
+// Hidden Loading
+const timer = setTimeout(() => {
+  loading.classList.add("hidden");
+}, 3000);
