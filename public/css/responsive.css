@@ -1,7 +1,19 @@
+@media only screen and (max-width: 1600px) {
+  .banner {
+    min-height: auto;
+    padding-bottom: 35px;
+    padding-top: 160px;
+  }
+}
 /* Tablet */
 @media only screen and (max-width: 1200px) {
   .btn_change_language {
     display: none;
+  }
+  .banner {
+    min-height: auto;
+    padding-bottom: 35px;
+    padding-top: 160px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -44,6 +56,10 @@
   }
   .contact_content {
     padding: 50px 15px 80px;
+  }
+  .banner_img {
+    margin: auto auto 30px;
+    max-width: 630px;
   }
 }
 
@@ -112,5 +128,10 @@
   }
   .btn_groups {
     flex-direction: column;
+  }
+  .deco_item.shape_deco_1 {
+    left: 0;
+    width: 100%;
+    border-radius: 0;
   }
 }
