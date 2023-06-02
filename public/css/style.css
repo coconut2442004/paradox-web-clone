@@ -413,6 +413,7 @@ button {
 
 .mega_menu ul li:hover a {
   padding-left: 16px;
+  color: var(--primary);
 }
 .mega_menu ul h5:hover {
   color: var(--primary);
